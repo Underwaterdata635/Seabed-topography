@@ -39,13 +39,16 @@ data = pd.read_excel('UnderwaterTerrain_AA.xlsx')
 print(data.head())
 ```
 
-## CHANGELOG
+## Update Log
 
-### [v1.0.0] - 2022-06-28
+- [v1.0.0] - 2022-06-28
 -The most original sparse data has been released.
 
-### [v1.0.1] - 2023-11-03
+- [v1.0.1] - 2023-11-03
 -v1.0.0 was deleted and the preprocessed ten types of underwater terrain data were updated.
 
-### [v1.0.2] - 2025-5-13
+- [v1.0.2] - 2025-5-13
 -v1.0.1 was deleted and all data was written into the standard excel files. Instructions for reading data were added.
+
+- [v1.0.3] - 2025-6-14
+-v1.0.2 was deleted. Based on readers' feedback, all files were standardized and renamed for easy access. An update log was written.
