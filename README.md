@@ -35,6 +35,17 @@ import pandas as pd
 
 # Load the seabed topography data
 data = pd.read_excel('UnderwaterTerrain_AA.xlsx')
-
 # Display the first few rows of the dataset
 print(data.head())
+```
+
+## CHANGELOG
+
+### [v1.0.0] - 2022-06-28
+-The most original sparse data has been released.
+
+### [v1.0.1] - 2023-11-03
+-v1.0.0 was deleted and the preprocessed ten types of underwater terrain data were updated.
+
+### [v1.0.2] - 2025-5-13
+-v1.0.1 was deleted and all data was written into the standard excel files. Instructions for reading data were added.
